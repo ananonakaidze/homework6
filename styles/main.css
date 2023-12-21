@@ -1,0 +1,443 @@
+header {
+    height: 324px;
+    background-image: url(../assets/mohamed-ajufaan-GFcW.png);
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1079px;
+    margin: 0 auto;
+    padding: 34px;
+}
+
+.navbar {
+    display: contents;
+
+}
+
+.logo {
+    width: 82px;
+    height: 17px;
+    font-size: 14px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.menu {
+    display: flex;
+    gap: 52px;
+}
+
+.li a {
+    width: 60px;
+    height: 15px; 
+    font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+}
+
+header li a:hover {
+    color: #58ebf8;
+
+}
+
+.rooms {
+    width: 140px;
+    height: 50px;
+    margin-left: 139px;
+    margin-top: 103px;
+}
+
+.rooms h3{
+   
+    font-size: 42px;
+    line-height: 56px;
+    text-align: left;
+    color: #ffffff;
+    }
+
+    .rooms h3{
+   
+        font-size: 42px;
+        line-height: 56px;
+        text-align: left;
+        color: #ffffff;
+        }
+        
+        .homeroom{
+            width: 100px;
+            height: 25px;
+            margin-left: 139px;
+            margin-top: 21px;
+        }
+
+        .homeroom a{
+            width: 39px;
+        height: 17px;
+        font-size: 14px;
+        text-align: left;
+        color: #ffffff;
+        }
+
+        main{
+            width: 100%;
+            max-width: 1088px;
+            margin: 0 auto;
+        }
+
+        .about{
+            width: 315px;
+            height: 170px;
+            
+            margin-top: 92px;
+        }
+        
+        .about a{
+            width: 75px;
+        height: 17px;
+        font-size: 14px;
+        text-align: left;
+        color: #5863f8;
+        }
+        
+        .about h1{
+            
+        width: 310px;
+        height: 104px;
+        font-size: 42px;
+        line-height: 56px;
+        text-align: left;
+        color: #000000;
+        }
+
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            flex-direction: row;
+            align-items: stretch;
+            row-gap: 10px;
+            column-gap: 20px;
+        }
+        
+        .box{
+            width: 530px;
+            height: 190px;
+            background: #f8f8f8
+            
+        }
+        
+        .insidetext{
+            display: flex;
+            width: 380px;
+            height: 190px;
+            justify-content: space-between;
+            
+        }
+        
+        .fortext{
+            width: 294px;
+            height: 105px;
+            margin-top: 39px;
+            margin-left: 16px;
+        }
+
+        .fortext a {
+            width: 24px;
+        height: 17px;
+        font-size: 14px;
+        text-align: left;
+        color: #5863f8;
+            
+        }
+        
+        .fortext h2{
+            margin-top: 4px;
+            margin-bottom: 11px;
+         
+            width: 200px;
+            height: 21px;
+            font-size: 18px;
+            text-align: left;
+            color: #000000;
+        }
+        
+        
+        
+        .fortext p{
+            margin-top: 11px;
+            width: 300px;
+        height: 62px;
+        font-size: 14px;
+        text-align: left;
+        color: #b1b1b1;
+        }
+        
+        .arrow{
+            display: flex;
+            width: 200px;
+        height: 190px;
+        background-color: #5863F8;
+        }
+        
+        .arrow a{
+            width: 50px
+        }
+        
+        .arrow img{
+            width: 10px;
+        height: 14px;
+        margin-left: 20px;
+            margin-top: 85px 
+        
+        }
+        .forinputs  {
+            width: 1349px;
+            height: 190px;
+        background: #f8f8f8;
+            margin-top: 71px;
+            
+        }
+        
+        .info{
+            display: flex;
+            width: 100%;
+            max-width: 1088px;
+            margin: 0 auto;
+        
+            
+        }
+        
+        .info form{
+            display: flex;
+            
+        }
+        
+        .checkin{
+            width: 100px;
+            margin-top: 55px;
+        }
+        
+        .checkout{
+            width: 100px;
+            margin-top: 55px;
+            margin-left: 180px;
+        }
+        
+        .room{
+            width: 100px;
+            margin-top: 55px;
+            margin-left: 180px;
+        
+        }
+        
+        .submit{
+            width: 100px;
+            margin-top: 73px;
+            margin-left: 180px;
+            
+        
+        }
+        
+        .checkin label a{
+            width: 78px;
+        height: 16px;
+        font-size: 13px;
+        text-align: left;
+        color: #5863f8;
+        }
+        
+        .checkin input{
+            width: 260px;
+        height: 60px;
+        border-color: #ebebeb;
+        border-width: 2px;
+        border-style: solid;
+        background: #ffffff
+        }
+
+        .checkout label a{
+            width: 78px;
+        height: 16px;
+        font-size: 13px;
+        text-align: left;
+        color: #5863f8;
+        }
+        
+        .checkout input{
+            width: 260px;
+        height: 60px;
+        border-color: #ebebeb;
+        border-width: 2px;
+        border-style: solid;
+        background: #ffffff
+        }
+        
+        .room label a{
+            width: 78px;
+        height: 16px;
+        font-size: 13px;
+        text-align: left;
+        color: #5863f8;
+        }
+        
+        .room input{
+            width: 260px;
+        height: 60px;
+        border-color: #ebebeb;
+        border-width: 2px;
+        border-style: solid;
+        background: #ffffff
+        }
+        
+        .submit input{
+            width: 260px;
+        height: 60px;
+        color: #ffffff;
+        cursor: pointer;
+        
+        background: #5863f8
+        }
+        
+        footer{
+    
+            height: 395px;
+            background-color: #121212;
+        }
+        
+        .footer{
+            width: 90%;
+            max-width: 1100px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            
+        }
+        
+        .texts h2{
+            width: 139px;
+        height: 28px;
+        font-size: 24px;
+        text-align: left;
+        color: #ffffff;
+        }
+        
+        .texts p{
+            width: 260px;
+        height: 83px;
+        font-size: 14px;
+        text-align: left;
+        margin-top: 22px;
+        color: #b1b1b1;
+        }
+        
+        .texts{
+            margin-top: 94px;
+        }
+        
+        
+        
+        .footer h3{
+            margin-bottom: 23px;
+            width: 94px;
+        height: 21px;
+        font-size: 18px;
+        text-align: left;
+        color: #ffffff;
+        }
+        
+        .links ul li a{
+            width: 30px;
+        height: 17px;
+        font-size: 14px;
+        text-align: left;
+        color: #5863f8;
+        }
+        
+        
+        
+        .privacy ul li a{
+            width: 30px;
+        height: 17px;
+        font-size: 14px;
+        text-align: left;
+        color: #5863f8;
+        }
+        
+        .contact ul li a{
+            width: 137px;
+            height: 17px;
+            font-size: 14px;
+            text-align: left;
+            color: #ffffff;
+        }
+        
+        .socialmedia{
+            margin-top: 30px;
+            display: flex;
+        }
+        
+        .socialmedia div{
+            width: 35px;
+            height: 35px;
+            
+           
+        }
+        
+        
+        .socialmedia div a{
+            color: white;
+        }
+        .fa {
+            padding: 10px;
+            font-size: 30px;
+            width: 30px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50%;
+          }
+        
+        .fa-facebook {
+            
+            background: #3B5998;
+            color: white;
+          }
+        
+        .fa-twitter {
+            margin-left: 30px;
+            background: #55ACEE;
+            color: white;
+          }
+          
+          .fa-google {
+            margin-left: 60px;
+            background: #dd4b39;
+            color: white;
+          }
+        
+          .paragrap{
+            display: flex;
+            margin-top: 56px;
+            gap: 419px;
+          }
+        
+          .paragrap p{
+            color: #B1B1B1;
+          }
+        
+          .paragrap p a{
+            color: #5863F8;
+          }
+        
+          .paragrap a{
+            color: #5863F8;
+          }
+        
+        
